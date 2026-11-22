@@ -1,0 +1,9 @@
+.landing-page {
+    width: 100%;
+}
+
+.landing-page > p {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}

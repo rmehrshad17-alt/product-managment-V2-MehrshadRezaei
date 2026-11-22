@@ -1,0 +1,9 @@
+.product-list-page {
+    width: 100%;
+}
+
+.product-list-page > h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}

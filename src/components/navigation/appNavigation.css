@@ -1,0 +1,12 @@
+.app-navigation {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.app-navigation > h4 {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: sans-serif;
+    cursor: pointer;
+}
