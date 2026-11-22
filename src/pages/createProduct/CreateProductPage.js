@@ -33,7 +33,7 @@ const AddProduct = () => {
                         </div>
 
                         <div class="btn-controller">
-                            <button onclick=${() => navigation("/")} class="create" type="submit">Create</button>
+                            <button class="create" type="submit">Create</button>
                         </div>
                     </form>
                 </div>

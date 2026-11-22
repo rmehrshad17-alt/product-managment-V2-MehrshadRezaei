@@ -25,8 +25,6 @@ export const rebuildWebPages = () => {
     
     const pathName = getPathName()
 
-
-
     const rootElement = document.getElementById("root")
     rootElement.innerHTML = ""
 

@@ -1,4 +1,5 @@
 export const idGenerator = (jsonData) => {
-    const newId = jsonData.length + 1
-    return newId
+    if (!jsonData.length) return 1
+
+    return Math.max(...jsonData.map((item) => Number(item.id) || 0)) + 1
 }

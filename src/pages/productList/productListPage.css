@@ -2,8 +2,70 @@
     width: 100%;
 }
 
-.product-list-page > h1 {
-    font-size: 30px;
-    font-weight: bolder;
-    text-align: center;
+.product-list-page-users {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px 0;
+    direction: ltr;
+}
+
+.product-list-page-user-card {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+    width: 60%;
+}
+
+.product-list-page-card-header {
+    width: 100%;
+    height:40%
+}
+
+.product-list-page-avatar {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 30px;
+}
+
+.product-list-page-user-info,
+.product-list-page-user-description,
+.product-list-page-card-footer {
+    width: 100%;
+    text-align: left;
+}
+
+.product-list-page-user-info h1 {
+    text-align: left;
+}
+
+.product-list-page-user-description {
+    width: 100%;
+    margin: 0;
+    color: #777985;
+    line-height: 1.6;
+    overflow-wrap:anywhere;
+}
+
+.product-list-page-card-footer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.product-list-page-joined-date {
+    padding: 6px;
+    color: #777985;
+    background: #f2f3f5;
+    border-radius: 5px;
+    font-size: 11px;
+}
+
+@media (max-width: 700px) {
+    .product-list-page-user-card {
+        width: calc(100% - 28px);
+    }
 }

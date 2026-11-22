@@ -52,24 +52,25 @@ button {
 .tabs {
     display: flex;
     justify-content: center;
-    padding: 10px 10px;
+    padding: 10px 20px;
     border-radius: 20px;
     background: #f0f0f3;
 
-    gap: 10px;
+    gap: 20px;
 }
 
 .tab {
     border: 0;
     padding: 11px 22px;
     border-radius: 24px;
-    color: #62636d;
-    background: gray;
+    color: #20212a;
+    background: #f0f0f3;
+
 }
 
 .tab.active {
-    color: white;
-    /* background: #ef4050; */
+    color: #20212a;
+    background: white;
 }
 
 .add-user-btn {
@@ -132,4 +133,8 @@ button {
     background-color: #ef4050;
     margin-right: 10px;
     border: 0;
+    background-image: url("./../../assets/icons/search-line.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
 }
